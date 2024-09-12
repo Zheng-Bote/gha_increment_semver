@@ -1,5 +1,5 @@
 # https://github.com/christian-draeger/increment-semantic-version
-name: Repo increment semver
+name: Repo - increment semver
 
 on:
   workflow_dispatch:
