@@ -18,9 +18,9 @@ jobs:
         with:
           current-version: "1.0.0"
           version-fragment: "feature"
-      - name: Do something with your bumped release version
+      - name: Do something with your bumped release version 1
         run: |
-          echo `next Version: ${{ steps.bump_version1.outputs.next-version }}`
+          echo `- 1 next Version: ${{ steps.bump_version1.outputs.next-version }}`
 
       - name: Bump release version
         id: bump_version2
@@ -28,10 +28,10 @@ jobs:
         with:
           current-version: "v1.0.1"
           version-fragment: "major"
-      - name: Do something with your bumped release version
+      - name: Do something with your bumped release version 2
         run: |
-          echo `next version: ${{ env.next-version }}`
+          echo `- 2 next version: ${{ steps.bump_version2.outputs.next-version }}`
 
       - name: add Summary item
         run: |
-          echo `next Version: ${{ steps.bump_version1.outputs.next-version }}` >> $GITHUB_STEP_SUMMARY
+          echo `- next Version: ${{ steps.bump_version2.outputs.next-version }}` >> $GITHUB_STEP_SUMMARY
