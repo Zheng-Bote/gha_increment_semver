@@ -5,8 +5,9 @@ author: Christian Dräger
 
 
 branding:
-  icon: 'tag'
-  color: 'purple'
+  icon: 'sternchen'
+  color: 'red'
+  
 inputs:
   current-version:
     description: 'The current semantic version you want to increment'
@@ -18,8 +19,9 @@ outputs:
   next-version:
     description: 'The incremented version'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.current-version }}
-    - ${{ inputs.version-fragment }}
+  using: 'composite'
+  steps:
+    - name: call entrypoint
+      shell: bash
+      run: |
+        ./entrypoint.sh ${{ inputs.current-version }} ${{ inputs.version-fragment }}
