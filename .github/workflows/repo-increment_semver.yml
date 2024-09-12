@@ -30,4 +30,8 @@ jobs:
           version-fragment: "major"
       - name: Do something with your bumped release version
         run: |
-          echo `next vesrion: ${{ env.next-version }}`
+          echo `next version: ${{ env.next-version }}`
+
+      - name: add Summary item
+        run: |
+          echo `next Version: ${{ steps.bump_version1.outputs.next-version }}` >> $GITHUB_STEP_SUMMARY
