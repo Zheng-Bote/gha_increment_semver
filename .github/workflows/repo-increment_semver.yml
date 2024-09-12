@@ -8,6 +8,10 @@ jobs:
   github-actions-environment-variables-ubuntu:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
       - name: Bump release version
         id: bump_version1
         uses: Zheng-Bote/gha_increment_semver@main
