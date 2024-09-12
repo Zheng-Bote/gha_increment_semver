@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
       - name: Bump release version
         id: bump_version1
         uses: Zheng-Bote/gha_increment_semver@main
@@ -19,7 +19,8 @@ jobs:
           current-version: "1.0.0"
           version-fragment: "feature"
       - name: Do something with your bumped release version
-        run: echo ${{ steps.bump_version1.outputs.next-version }}
+        run: |
+          echo `next Version: ${{ steps.bump_version1.outputs.next-version }}`
 
       - name: Bump release version
         id: bump_version2
@@ -28,4 +29,5 @@ jobs:
           current-version: "v1.0.1"
           version-fragment: "major"
       - name: Do something with your bumped release version
-        run: echo ${{ steps.bump_version2.outputs.next-version }}
+        run: |
+          echo `next vesrion: ${{ env.next-version }}`
