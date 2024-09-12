@@ -14,7 +14,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
@@ -24,6 +23,7 @@
   - [Dependencies](#dependencies)
   - [folder structure](#folder-structure)
 - [Usage/Examples](#usageexamples)
+- [input / output Examples](#input--output-examples)
 - [API Reference](#api-reference)
   - [Parameters](#parameters)
 - [Documentation](#documentation)
