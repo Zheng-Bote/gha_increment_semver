@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  github-actions-environment-variables-ubuntu:
+  increment_SemVer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,7 +20,7 @@ jobs:
           version-fragment: "feature"
       - name: Do something with your bumped release version 1
         run: |
-          echo `- 1 next Version: ${{ steps.bump_version1.outputs.next-version }}`
+          echo "- 1 next Version: ${{ steps.bump_version1.outputs.next-version }}"
 
       - name: Bump release version
         id: bump_version2
