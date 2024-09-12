@@ -1,7 +1,7 @@
 <div id="top" align="center">
-<h1>GH Repo README Template</h1>
+<h1>increment SemVer</h1>
 
-<p>Template for new Github repos</p>
+<p>GH Action ti increment the given semantic version</p>
 
 [Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
 
@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -77,6 +78,7 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -93,6 +95,7 @@ bla bla
 
 2 directories, 9 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -102,6 +105,35 @@ bla bla
 ```html
 <mark> under constrcution </mark>
 ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## input / output Examples
+
+| version-fragment | current-version |     | output         |
+| ---------------- | --------------- | --- | -------------- |
+| major            | 2.11.7          |     | 3.0.0          |
+| major            | v2.11.7         |     | 3.0.0          |
+| major            | 2.11.7-alpha3   |     | 3.0.0          |
+| major            | 2.11.7-alpha.3  |     | 3.0.0          |
+| feature          | 2.11.7          |     | 2.12.0         |
+| feature          | 2.11.7-alpha3   |     | 2.12.0         |
+| feature          | 2.11.7-alpha.3  |     | 2.12.0         |
+| bug              | 2.11.7          |     | 2.11.8         |
+| bug              | 2.11.7-alpha3   |     | 2.11.8         |
+| bug              | 2.11.7-alpha.3  |     | 2.11.8         |
+| alpha            | 2.11.7          |     | 2.11.7-alpha.1 |
+| alpha            | 2.11.7-alpha3   |     | 2.11.7-alpha.4 |
+| alpha            | 2.11.7-alpha.3  |     | 2.11.7-alpha.4 |
+| beta             | 2.11.7          |     | 2.11.7-beta.1  |
+| beta             | 2.11.7-alpha3   |     | 2.11.7-beta.1  |
+| beta             | 2.11.7-alpha.3  |     | 2.11.7-beta.1  |
+| pre              | 2.11.7          |     | 2.11.7-pre.1   |
+| pre              | 2.11.7-alpha3   |     | 2.11.7-pre.1   |
+| pre              | 2.11.7-alpha.3  |     | 2.11.7-pre.1   |
+| rc               | 2.11.7          |     | 2.11.7-rc.1    |
+| rc               | 2.11.7-alpha3   |     | 2.11.7-rc.1    |
+| rc               | 2.11.7-alpha.3  |     | 2.11.7-rc.1    |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
