@@ -58,12 +58,12 @@ description of this
 ![Status](https://img.shields.io/badge/Status-works-green)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
 
-![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
+![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/gha_increment_semver)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/gha_increment_semver)
 
-[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
-[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
-[![Repo - create TOC of README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml)
+[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-create_tree_readme.yml)
+[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-actions_docu.yml)
+[![Repo - create TOC of README](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/gha_increment_semver/actions/workflows/repo-create_doctoc.yml)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -202,13 +202,9 @@ see also: <https://linktodocumentation>
 
 ### License
 
-#### MIT
-
-**This Repo-Template is using the MIT-License**
-
 MIT License
 
-Copyright (c) \[year] \[fullname]
+Copyright (c) 2024 ZHENG Robert
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -236,7 +232,7 @@ SOFTWARE.
 
 ## Code Contributors
 
-![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/gha_increment_semver?color=dark-green)
 
 [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
