@@ -31,7 +31,6 @@
 - [Screenshots](#screenshots)
 - [Authors and License](#authors-and-license)
   - [License](#license)
-    - [MIT](#mit)
   - [Authors](#authors)
 - [Code Contributors](#code-contributors)
 
